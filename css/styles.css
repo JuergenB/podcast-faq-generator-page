@@ -437,16 +437,9 @@ section {
     margin: 0 auto var(--space-md);
     box-shadow: var(--shadow-md);
     background: var(--color-bg-light);
-}
-
-.step-icon-wrapper .step-icon {
-    width: 150%;
-    height: 150%;
-    margin: -25%;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 0;
-    box-shadow: none;
+    display: flex;           /* ADD */
+    justify-content: center; /* ADD */
+    align-items: center;     /* ADD */
 }
 
 /* Fallback: if HTML not updated, this styles direct img.step-icon */
