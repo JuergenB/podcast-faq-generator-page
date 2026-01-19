@@ -392,13 +392,40 @@ section {
   text-align: center;
 }
 
-.step-icon {
+/* ===========================================
+   STEP ICONS - FIXED VERSION
+   Wrapper crops icons to perfect circles
+   =========================================== */
+.step-icon-wrapper {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto var(--space-md);
+  box-shadow: var(--shadow-md);
+  background: var(--color-bg-light);
+}
+
+.step-icon-wrapper .step-icon {
+  width: 150%;
+  height: 150%;
+  margin: -25%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/* Fallback: if HTML not updated, this styles direct img.step-icon */
+img.step-icon:not(.step-icon-wrapper .step-icon) {
   width: 120px;
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: center;
   margin: 0 auto var(--space-md);
   box-shadow: var(--shadow-md);
+  background: var(--color-bg-light);
 }
 
 .step-number {
