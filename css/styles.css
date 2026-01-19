@@ -223,6 +223,8 @@ section {
     padding-top: 80px; /* Account for fixed header */
 }
 
+/* No ::before pseudo-element - using .hero-image div instead */
+
 /* Two-column grid for hero content */
 .hero-grid {
     display: grid;
