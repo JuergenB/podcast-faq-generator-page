@@ -4,7 +4,7 @@ Marketing site for the Podcast FAQ Generator tool by Polymash Visibility Lab.
 
 ## Live Site
 
-**URL:** https://juergenb.github.io/podcast-faq-generator-page/
+**URL:** https://juergenb.github.io/podcast-faq-generator/
 
 ## Pages
 
