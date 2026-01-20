@@ -898,13 +898,14 @@ img.step-icon:not(.step-icon-wrapper .step-icon) {
 }
 
 .pickaxe-container {
-  max-width: 800px;
-  margin: 0 auto var(--space-lg);
+  max-width: 100%;
+  margin: -9 auto var(--space-lg);
   min-height: 600px;
   border-radius: var(--radius-lg);
   overflow: hidden;
   box-shadow: var(--shadow-lg);
   background: var(--color-white);
+  align-self: center;
 }
 
 .trial-instructions {
