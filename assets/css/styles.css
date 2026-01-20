@@ -589,6 +589,7 @@ img.step-icon:not(.step-icon-wrapper .step-icon) {
   flex-wrap: wrap;
   justify-content: center;
   gap: var(--space-md);
+  /*align-self: center;*/
   margin-top: var(--space-lg);
 }
 
